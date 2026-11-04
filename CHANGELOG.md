@@ -182,6 +182,7 @@
 * [BUGFIX] Alerts: Point `runbook_url` annotations at `/manage/mimir-runbooks/` (docs moved off `operators-guide`). #16329
 * [BUGFIX] Dashboards: Fix the ingest mode latency panels not working with classic histogram metrics. #16556
 * [BUGFIX] Dashboards: Match the monolithic `mimir` and `cortex` jobs in the query-scheduler panels of the `Mimir / Reads` and `Mimir / Tenants` dashboards. The single binary runs the query-scheduler since Mimir 3.0.0 (#12200). #16983
+* [BUGFIX] Dashboards: Filter the resource requests and limits in the resources panels by the selected instance. #17167
 
 ### Jsonnet
 
